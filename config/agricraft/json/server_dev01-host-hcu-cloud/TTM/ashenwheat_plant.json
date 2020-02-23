@@ -1,0 +1,72 @@
+{
+  "path": "TTM/ashenwheat_plant.json",
+  "enabled": true,
+  "id": "ashenwheat:ashwheatcrop",
+  "plant_name": "Ashenwheat",
+  "seed_name": "Ashenwheat Seeds",
+  "seed_items": [
+    {
+      "item": "ashenwheat:ashseeds",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "Somewhere between coal and wheats, should burn better than most plants "
+  },
+  "growth_chance": 1.0,
+  "growth_bonus": 0.025,
+  "bonemeal": true,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 0.95,
+        "required": true,
+        "item": "ashenwheat:ashwheatsheaf",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 6,
+    "max_light": 12,
+    "soils": [
+      "farmland_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "ashenwheat:items/ashseeds",
+    "plant_textures": [
+      "ashenwheat:blocks/ashwheatcrop_00",
+      "ashenwheat:blocks/ashwheatcrop_01",
+      "ashenwheat:blocks/ashwheatcrop_02",
+      "ashenwheat:blocks/ashwheatcrop_03",
+      "ashenwheat:blocks/ashwheatcrop_04",
+      "ashenwheat:blocks/ashwheatcrop_05",
+      "ashenwheat:blocks/ashwheatcrop_06",
+      "ashenwheat:blocks/ashwheatcrop_07"
+    ]
+  }
+}

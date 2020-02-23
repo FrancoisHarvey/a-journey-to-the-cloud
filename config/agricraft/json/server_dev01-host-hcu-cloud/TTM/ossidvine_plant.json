@@ -1,0 +1,72 @@
+{
+  "path": "TTM/ossidvine_plant.json",
+  "enabled": true,
+  "id": "ashenwheat:ossidvine",
+  "plant_name": "Ossidvine",
+  "seed_name": "ossidvine Seeds",
+  "seed_items": [
+    {
+      "item": "ashenwheat:ossidseeds",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "Like a pumpkin but white and hard like a bone."
+  },
+  "growth_chance": 1.0,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.2,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 0.95,
+        "required": true,
+        "item": "ashenwheat:ossidroot",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 8,
+    "max_light": 12,
+    "soils": [
+      "farmland_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "ashenwheat:items/ossidseeds",
+    "plant_textures": [
+      "ashenwheat:blocks/ossidvine_00",
+      "ashenwheat:blocks/ossidvine_01",
+      "ashenwheat:blocks/ossidvine_02",
+      "ashenwheat:blocks/ossidvine_03",
+      "ashenwheat:blocks/ossidvine_04",
+      "ashenwheat:blocks/ossidvine_05",
+      "ashenwheat:blocks/ossidvine_06",
+      "ashenwheat:blocks/ossidvine_07"
+    ]
+  }
+}

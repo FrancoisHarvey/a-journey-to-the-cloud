@@ -1,0 +1,29 @@
+include file("default.recipes")
+
+# Use Silicon Dust and not redstone...
+transistor {
+  input: [[nuggetIron, nuggetIron, nuggetIron]
+          [wireCopper, dustSilicon, wireCopper]
+          ["", paper, ""]]
+  output: 1
+}
+
+
+chip1 {
+  input: [[iron_nugget, iron_nugget, iron_nugget]
+          [nuggetSilicon, "oc:materialTransistor", nuggetSilicon]
+          [iron_nugget, iron_nugget, iron_nugget]]
+  output: 1
+}
+
+# solargeneratorupgrade use the shared solar component
+
+solargeneratorupgrade {
+  input: [[blockGlass, blockGlass, blockGlass]
+          ["oc:circuitChip3", {item="stevescarts:modulecomponents", subID=44}, "oc:circuitChip3"]
+          [plateIron, "oc:materialCircuitBoardPrinted", plateIron]]
+  output: 1
+}
+
+
+

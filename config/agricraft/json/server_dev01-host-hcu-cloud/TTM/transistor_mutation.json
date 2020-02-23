@@ -1,0 +1,8 @@
+{
+  "path": "TTM/transistor_mutation.json",
+  "enabled": true,
+  "chance": 0.2,
+  "child": "mysticalcreations:transistor_plant",
+  "parent1": "resource:redstodendron_plant",
+  "parent2": "mysticalagriculture:silicon_plant"
+}

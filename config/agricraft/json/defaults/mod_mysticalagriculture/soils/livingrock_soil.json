@@ -1,0 +1,18 @@
+{
+  "path": "mod_mysticalagriculture/soils/livingrock_soil.json",
+  "enabled": true,
+  "id": "livingrock_soil",
+  "name": "Livingrock",
+  "varients": [
+    {
+      "item": "botania:livingrock",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

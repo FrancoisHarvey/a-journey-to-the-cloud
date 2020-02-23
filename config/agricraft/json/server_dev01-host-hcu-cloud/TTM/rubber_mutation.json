@@ -1,0 +1,8 @@
+{
+  "path": "TTM/rubber_mutation.json",
+  "enabled": true,
+  "chance": 0.4,
+  "child": "mysticalagriculture:rubber_plant",
+  "parent1": "mysticalagriculture:sulfur_plant",
+  "parent2": "mysticalagriculture:slime_plant"
+}

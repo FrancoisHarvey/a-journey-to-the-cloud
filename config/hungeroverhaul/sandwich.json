@@ -1,0 +1,12 @@
+{
+	// Sandwich should give more than the bread...
+	"foods": [
+		{
+			"name": "culinaryconstruct:sandwich",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		}
+	]
+}
+

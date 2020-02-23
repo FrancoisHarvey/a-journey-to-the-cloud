@@ -1,0 +1,18 @@
+{
+  "path": "TTM/end_stone_soil.json",
+  "enabled": true,
+  "id": "bop_farmland_0",
+  "name": "Loamy farmland",
+  "varients": [
+    {
+      "item": "biomesoplenty:farmland:0",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

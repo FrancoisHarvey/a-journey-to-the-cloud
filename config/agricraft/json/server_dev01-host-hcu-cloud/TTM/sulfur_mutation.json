@@ -1,0 +1,8 @@
+{
+  "path": "TTM/sulfur_mutation.json",
+  "enabled": true,
+  "chance": 0.33,
+  "child": "mysticalagriculture:sulfur_plant",
+  "parent1": "ashenwheat:ashwheatcrop",
+  "parent2": "ashenwheat:scintillawheatcrop"
+}

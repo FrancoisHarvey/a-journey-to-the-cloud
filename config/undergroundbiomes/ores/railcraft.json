@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "railcraft:ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/baseminerals/sulfur",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

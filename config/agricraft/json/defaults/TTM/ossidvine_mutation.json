@@ -1,0 +1,8 @@
+{
+  "path": "TTM/ossidvine_mutation.json",
+  "enabled": true,
+  "chance": 0.75,
+  "child": "ashenwheat:ossidvine",
+  "parent1": "vanilla:white_tulip_plant",
+  "parent2": "vanilla:pumpkin_plant"
+}
