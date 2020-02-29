@@ -3,10 +3,6 @@
 // Use a cutting board in place of slab and a station in place of a workbench
 // HC need cutting board for most sandwich...
 
-// All artisans CuttingBoard in the oredict to do recipes
-var toolCuttingboard = <ore:toolCuttingboard>;
-
-toolCuttingboard.addAll(<ore:artisansCuttingBoard>);
 
 recipes.remove(<harvestcraft:cuttingboarditem>);
 recipes.addShapeless("TTM_HCCuttingboard", <harvestcraft:cuttingboarditem>, [<ore:artisansCuttingBoard>]);
