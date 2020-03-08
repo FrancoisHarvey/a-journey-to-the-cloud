@@ -183,19 +183,18 @@ recipes.addShaped("TTM_motor2", <nuclearcraft:part:8> * 2, [
  
  
   
+recipes.remove(<nuclearcraft:part:4>);
+mods.immersiveengineering.Blueprint.addRecipe("components", <nuclearcraft:part:4>  , [<ore:ingotCopper>,<ore:ingotIron>,<ore:itemRubber>]);
+// Cable + Rod = 3x
+mods.immersiveengineering.Blueprint.addRecipe("components", <nuclearcraft:part:4> * 3 , [<techreborn:cable>,<ore:stickIron>,<ore:itemRubber>]);
+
+mods.immersiveengineering.Blueprint.addRecipe("components", <nuclearcraft:part:4> * 3 , [<techreborn:cable:5>,<ore:stickIron>]);
+
  // Add a blueprint for the Mechanical components
  // Need a motor for the blueprint
 recipes.addShaped("ttm_blueprints_mechanical", <immersiveengineering:blueprint>.withTag({blueprint: "mechanical"}), [[<ore:ingotSilver>, <ore:motor>, <ore:ingotSilver>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
 
-  
-// Move  selenoid to IE
-recipes.remove(<nuclearcraft:part:4>);
-mods.immersiveengineering.Blueprint.addRecipe("mechanical", <nuclearcraft:part:4>  , [<ore:ingotCopper>,<ore:ingotIron>,<ore:itemRubber>]);
-// Cable + Rod = 3x
-mods.immersiveengineering.Blueprint.addRecipe("mechanical", <nuclearcraft:part:4> * 3 , [<techreborn:cable>,<ore:stickIron>,<ore:itemRubber>]);
-
-mods.immersiveengineering.Blueprint.addRecipe("mechanical", <nuclearcraft:part:4> * 3 , [<techreborn:cable:5>,<ore:stickIron>]);
 
 // 
 recipes.remove(<nuclearcraft:part:5>);
