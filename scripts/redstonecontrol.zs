@@ -86,9 +86,7 @@ RecipeBuilder.get("engineer")
   .setFluid(<liquid:iron> * 250)
   .create();
   
-//
 
-recipes.addShaped("TTM_energy_valve", <rs_ctr:energy_valve>, [[<ore:ingotGold>, <rs_ctr:rs_port:1>, <ore:ingotGold>], [<rs_ctr:rs_port:1>, <ore:blockRedstone>, <rs_ctr:rs_port>], [<ore:ingotGold>, <minecraft:stone_slab:7>, <ore:ingotGold>]]);
 
 
 // Energy Valve use IE Breaker

@@ -216,7 +216,8 @@ RecipeBuilder.get("chemist")
 var materialPressedwax = <ore:materialPressedwax>;
 materialPressedwax.add(<growthcraft_bees:bees_wax:*>);
 
-recipes.addShapeless("hardenedleatheritem", <harvestcraft:hardenedleatheritem>, [<ore:materialPressedwax>, <minecraft:leather>]);
+recipes.remove( <harvestcraft:hardenedleatheritem>);
+recipes.addShapeless("TTM_hardenedleatheritem", <harvestcraft:hardenedleatheritem>, [<ore:materialPressedwax>, <minecraft:leather>]);
 
  
 // Saddle

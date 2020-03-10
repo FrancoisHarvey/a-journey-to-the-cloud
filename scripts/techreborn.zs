@@ -453,6 +453,10 @@ recipes.remove( <techreborn:part:30> );
 
 
 
+// Manufactory should give bauxite dust and not aluminium
+mods.nuclearcraft.manufactory.removeRecipeWithInput(<ore:oreBauxite>);
+mods.nuclearcraft.manufactory.addRecipe(<geolosys:cluster:6>,<techreborn:dust:5>* 2);
+
 
 mods.immersiveengineering.Blueprint.addRecipe("components", <techreborn:part:30> , [<ore:circuitBasic>,<techreborn:plates:34>,<opencomputers:material:8>]);
 
@@ -462,6 +466,12 @@ mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:3> , <ore:plan
 
 // Add also a adv rocket press because it's cool
 mods.advancedrocketry.PlatePresser.addRecipe(<techreborn:plates:3>*1,<ore:plankWood>*1);
+
+
+// Allow redstone block to plate using adv rocket press *1, immersiveengineering using dust, cutting machine * 3
+mods.advancedrocketry.PlatePresser.addRecipe(<techreborn:plates:4>*1,<minecraft:redstone_block>*1);
+mods.advancedrocketry.CuttingMachine.addRecipe(<techreborn:plates:4>*3, 80, 100,<minecraft:redstone_block>);
+mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:4> , <minecraft:redstone>, <immersiveengineering:mold>, 500, 4);
 
 // Data storage
 recipes.remove(<techreborn:part:2>);

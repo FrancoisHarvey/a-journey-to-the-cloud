@@ -84,6 +84,7 @@ mods.nuclearcraft.infuser.addRecipe(<nuclearcraft:cooler>,<liquid:magnesium>, <n
 mods.tconstruct.Casting.addBasinRecipe(<nuclearcraft:cooler:15>, <nuclearcraft:cooler>,<liquid:magnesium>, 1000, true);
 
 
+
 //////////////////////
 ///  Make smore, more oredict like Pam.
 //////////////////////

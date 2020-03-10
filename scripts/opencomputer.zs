@@ -19,14 +19,12 @@ mods.immersiveengineering.Blueprint.addRecipe("electronics", <opencomputers:mate
 // Same for PCB using plate (No Acid need)
 mods.immersiveengineering.MetalPress.addRecipe(<opencomputers:material:4>, <opencomputers:material:2>, <immersiveengineering:mold>, 500, 1);
 
-// Same for PCB using plate (No Acid need)
-mods.immersiveengineering.MetalPress.addRecipe(<opencomputers:material:4>, <opencomputers:material:2>, <immersiveengineering:mold>, 500, 1);
-
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:nuggets> * 9, <ore:plateCobalt>, <immersiveengineering:mold:6>, 500, 1);
 
 
-// Add A Cutting Machine recipes
-mods.advancedrocketry.CuttingMachine.addRecipe(<opencomputers:material:4> * 2, 80, 100,<opencomputers:material:2>);
+// Add a Manufactory recipes
+mods.nuclearcraft.manufactory.addRecipe(<opencomputers:material:2>,<opencomputers:material:4>);
+
 
 mods.techreborn.alloySmelter.addRecipe(<opencomputers:material:4> * 4,<opencomputers:material:2>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "etchacid", Amount: 1000}}), 600, 128);
 

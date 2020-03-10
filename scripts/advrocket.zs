@@ -518,3 +518,8 @@ recipes.addShaped("TTM_circlelight_2", <advancedrocketry:circlelight> * 2, [[<or
  recipes.addShaped("TTM_wirelesstransciever2", <advancedrocketry:wirelesstransciever> * 2, [[<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>], [<ore:oc:wlanCard1>, <advancedrocketry:dataunit>, <ore:oc:wlanCard1>], [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>]]);
  
  recipes.addShaped("TTM_wirelesstransciever4", <advancedrocketry:wirelesstransciever> * 4, [[<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>], [<ore:oc:wlanCard2>, <advancedrocketry:dataunit>, <ore:oc:wlanCard2>], [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>]]);
+
+// Allow a some liquid to dust using the crystallizer
+mods.nuclearcraft.crystallizer.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>);
+mods.nuclearcraft.crystallizer.addRecipe(<liquid:coal> * 100, <techreborn:dust:13>);
+mods.nuclearcraft.crystallizer.addRecipe(<liquid:glowstone> * 250, <minecraft:glowstone_dust>);

@@ -7,9 +7,6 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
 
-
-// trough need a farmer and most early game ingot (2X for Iron, 4X for Steel)
-
 // GC Apple Tree are an upgrade of the HC one so.
 recipes.remove(<growthcraft_apples:apple_sapling>);
 recipes.addShapeless("TTM_AppleSapling", <growthcraft_apples:apple_sapling>, [<minecraft:apple>,<harvestcraft:apple_sapling>,<harvestcraft:apple_sapling>,<harvestcraft:apple_sapling>]);
@@ -157,5 +154,16 @@ var foodHeavycream = <ore:foodHeavycream>;
 listAllheavycream.add(<growthcraft_milk:bottlefluid_cream>);
 foodHeavycream.add(<growthcraft_milk:bottlefluid_cream>);
 
+recipes.remove(<growthcraft_rice:cultivator>);
 
+// Cultivator have no durability, so steel age
+RecipeBuilder.get("farmer")
+  .setShaped( [[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>], [<ore:nuggetSteel>, <ore:stickTreatedWood>, <ore:nuggetSteel>], [null,<ore:stickTreatedWood>, null]])
+  .addOutput(<growthcraft_rice:cultivator>)
+  .addTool(<ore:artisansHandsaw>, 35)    
+  .create();
+
+
+// Milk distillation (For very big farm :P )
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:water> * 50, <liquid:fluid_butter_milk> * 125,<liquid:fluid_milk_curds> * 175, <liquid:fluid_skim_milk> * 200, <liquid:fluid_cream> * 400], [<growthcraft_milk:butter>], <liquid:milk> * 1000, 64, 100, [1]);
 

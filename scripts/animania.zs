@@ -189,7 +189,9 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<growthcraft_milk:bottleflui
 mods.immersiveengineering.BottlingMachine.addRecipe(<growthcraft_milk:bottlefluid_butter_milk>,  <minecraft:glass_bottle>, <liquid:fluid_butter_milk> * 250);
 mods.immersiveengineering.BottlingMachine.addRecipe(<growthcraft_milk:bottlefluid_skim_milk>,  <minecraft:glass_bottle>, <liquid:fluid_skim_milk> * 250);
 mods.immersiveengineering.BottlingMachine.addRecipe(<growthcraft_milk:bottlefluid_milk_curds>,  <minecraft:glass_bottle>, <liquid:fluid_milk_curds> * 250);
-mods.immersiveengineering.BottlingMachine.addRecipe(<growthcraft_milk:bottlefluid_pasteurized_milk>,  <minecraft:glass_bottle>, <liquid:fluid_pasteurized_milk> *250);
+// no more pasteurized_milk
+// mods.immersiveengineering.BottlingMachine.addRecipe(<growthcraft_milk:bottlefluid_pasteurized_milk>,  <minecraft:glass_bottle>, <liquid:fluid_pasteurized_milk> *250);
+
 
 
 // Oredict veggy for slop

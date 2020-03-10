@@ -685,10 +685,6 @@ mods.immersiveengineering.Mixer.addRecipe(<liquid:ender> * 144, <liquid:nitrogen
 mods.immersiveengineering.Mixer.addRecipe(<liquid:ender> * 500, <liquid:nitrogen> * 500, [<ore:dustBeryllium>, <ore:dustCarobbiite>,<ore:dustChrome>], 2048);
 
 
-// Milk distillation (For very big farm :P )
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:water> * 50, <liquid:fluid_butter_milk> * 125,<liquid:fluid_milk_curds> * 175, <liquid:fluid_skim_milk> * 200, <liquid:fluid_pasteurized_milk> * 400], [<growthcraft_milk:butter>], <liquid:milk> * 1000, 64, 100, [1]);
-
-// @TODO : Should add also bottling machine
 
 // Lignite can be use for the Blast but very inificient 
 mods.immersiveengineering.BlastFurnace.addFuel(<ore:lignite_coal>, 200 );
