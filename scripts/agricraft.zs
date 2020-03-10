@@ -10,7 +10,7 @@ recipes.remove(<agricraft:sprinkler>);
 RecipeBuilder.get("farmer")
   .setShaped([[null, <ore:slabWood>, null],
   [null, <ore:ingotBrass>, null],
-  [null, <ore:gearBrass>,null]])
+  [null, null,null]])
   .addOutput(<agricraft:sprinkler>)
   .addTool(<ore:artisansHammer>, 25)    
   .create();
