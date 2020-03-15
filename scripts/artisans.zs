@@ -92,45 +92,49 @@ recipes.addShaped("TTM_Potter", <artisanworktables:worktable:14>,  [
     [<ore:plankWood>, <minecraft:crafting_table>, <ore:plankWood>],
     [<ore:plankWood>, <ceramics:clay_bucket>, <ore:plankWood>]]);
 
-		
+// Add a *4 recipes
+
+recipes.addShaped("TTM_light_engineering", <immersiveengineering:metal_decoration0:4> * 4, [[<ore:ingotIron>,<immersiveengineering:material:9>, <ore:ingotIron>], [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotIron>, <immersiveengineering:material:9>, <ore:ingotIron>]]);
+
+
 	
 // Level 2 -> Steel
 recipes.addShaped("TTM_Basic2", <artisanworktables:workstation:5>,  [
     [<ore:plateSteel>,<artisanworktables:worktable:5>, <ore:plateSteel>],
-    [<ore:plateSteel>, <ore:machineBasic>, <ore:plateSteel>],
+    [<ore:plateSteel>,  <immersiveengineering:metal_decoration0:4> , <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 	
 recipes.addShaped("TTM_blacksmith2", <artisanworktables:workstation:3>,  [
     [<ore:plateSteel>,<artisanworktables:worktable:3>, <ore:plateSteel>],
-    [<ore:plateSteel>, <ore:machineBasic>, <ore:plateSteel>],
+    [<ore:plateSteel>,  <immersiveengineering:metal_decoration0:4> , <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 	
 recipes.addShaped("TTM_Engineer2", <artisanworktables:workstation:6>,  [
     [<ore:plateSteel>,<artisanworktables:worktable:6>, <ore:plateSteel>],
-    [<ore:plateSteel>, <ore:machineBasic>, <ore:plateSteel>],
+    [<ore:plateSteel>,  <immersiveengineering:metal_decoration0:4> , <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 	
 recipes.addShaped("TTM_Carpenter2", <artisanworktables:workstation:1>,  [
     [<ore:plateSteel>,<artisanworktables:worktable:1>, <ore:plateSteel>],
-    [<ore:plateSteel>, <ore:machineBasic>, <ore:plateSteel>],
+    [<ore:plateSteel>,  <immersiveengineering:metal_decoration0:4> , <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 	
 // Chemistry
 recipes.addShaped("TTM_Chemistry2", <artisanworktables:workstation:9>,  [
     [<ore:plateSteel>, <artisanworktables:worktable:9>,<ore:plateSteel>],
-    [<ore:plateSteel>, <ore:machineBasic>, <ore:plateSteel>],
+    [<ore:plateSteel>,  <immersiveengineering:metal_decoration0:4>, <ore:plateSteel>],
     [<ore:plateSteel>,<ore:plateSteel>,<ore:plateSteel>]]);
 
 // Level 3 -> Titanium
 recipes.addShaped("TTM_Basic3", <artisanworktables:workshop:5>,  [
     [<ore:plateTitanium>,<artisanworktables:worktable:5>, <ore:plateTitanium>],
-    [<ore:plateTitanium>, <techreborn:machine_casing:2>, <ore:plateTitanium>],
+    [<ore:plateTitanium>,  <ore:machineBasic>, <ore:plateTitanium>],
     [<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
 	
 	
 recipes.addShaped("TTM_Engineer3", <artisanworktables:workshop:6>,  [
     [<ore:plateTitanium>,<artisanworktables:worktable:6>, <ore:plateTitanium>],
-    [<ore:plateTitanium>, <techreborn:machine_casing:2>, <ore:plateTitanium>],
+    [<ore:plateTitanium>, <ore:machineBasic>, <ore:plateTitanium>],
     [<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
 	
 // Tool box
